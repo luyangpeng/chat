@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.chat.mapper.RedEnvelopeMapper" >
+  <resultMap id="BaseResultMap" type="com.chat.pojo.po.RedEnvelope" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="money" property="money" jdbcType="DECIMAL" />
+    <result column="number" property="number" jdbcType="INTEGER" />
+    <result column="mine_num" property="mineNum" jdbcType="INTEGER" />
+    <result column="remain_money" property="remainMoney" jdbcType="DECIMAL" />
+    <result column="remain_num" property="remainNum" jdbcType="INTEGER" />
+  </resultMap>
+</mapper>
